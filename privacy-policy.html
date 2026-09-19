@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Suno Subtitle Extractor</title>
+<style>
+body{font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:850px;margin:40px auto;padding:0 20px;color:#1f2328}
+h1,h2{line-height:1.25}
+code{background:#f3f4f6;padding:2px 5px;border-radius:4px}
+.note{background:#f6f8fa;border:1px solid #d0d7de;padding:12px 14px;border-radius:8px}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Suno Subtitle Extractor</h1>
+<p><strong>Effective date:</strong> September 18, 2026</p>
+
+<p>Suno Subtitle Extractor is an unofficial browser extension. It is not affiliated with, endorsed by, or sponsored by Suno.</p>
+
+<h2>Single purpose</h2>
+<p>The extension's single purpose is to let users inspect, make small subtitle adjustments to, and export Suno-provided time-aligned lyrics for the currently open Suno song as SRT, LRC, or JSON files.</p>
+
+<h2>Data the extension handles</h2>
+<p>When the user opens the extension on a Suno song page, it reads the current tab's URL and title to identify the selected song and create a filename. The extension does not collect general browsing history.</p>
+<p>Only after the user clicks <strong>Load aligned lyrics</strong>, a packaged script runs inside the current Suno page. That script temporarily reads Suno's <code>__session</code> authentication cookie and uses it to request the selected song's aligned-lyrics data directly from Suno's own API over HTTPS.</p>
+<p>The aligned-lyrics response may include lyric text, timing data, section information, word-level alignment information, waveform data, and other metadata returned by Suno.</p>
+
+<h2>How data is used</h2>
+<p>The authentication value is used only to authenticate the direct request to Suno. It is not logged, stored, exported, displayed, or sent to the extension developer.</p>
+<p>The returned aligned-lyrics data is processed locally in the browser only to display a preview, apply user-selected subtitle adjustments, and create files that the user explicitly downloads.</p>
+
+<h2>Storage and retention</h2>
+<p>The extension does not use persistent extension storage. Aligned-lyrics data and manually added subtitle cues remain in memory only while the popup is open. Files explicitly downloaded by the user are stored wherever the user's browser saves downloads.</p>
+
+<h2>Sharing and third parties</h2>
+<p>The developer does not receive, sell, rent, or share user data. The network request required for the extension's core function is made directly from the Suno page to Suno's own API. Suno's handling of data is governed by Suno's own terms and privacy policy.</p>
+
+<h2>Analytics, advertising, and tracking</h2>
+<p>The extension contains no analytics, advertising SDKs, tracking pixels, telemetry, or developer-operated backend service.</p>
+
+<h2>Security</h2>
+<p>Requests are made over HTTPS. Authentication information is never intentionally written to logs, persistent storage, download files, or developer servers.</p>
+
+<h2>Chrome Web Store Limited Use</h2>
+<p>The extension uses data only as necessary to provide its disclosed single purpose. It does not use user data for advertising, credit decisions, data brokerage, profiling, or unrelated purposes.</p>
+
+<h2>Changes</h2>
+<p>If the extension's data practices materially change, this policy and the Chrome Web Store disclosures will be updated before the changed practices are released.</p>
+
+<h2>Contact</h2>
+<p>For privacy or support questions, use the developer support contact shown on the Chrome Web Store listing.</p>
+</body>
+</html>
