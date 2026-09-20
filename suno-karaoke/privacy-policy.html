@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — Suno Karaoke</title>
+<style>
+body{font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:860px;margin:40px auto;padding:0 20px;color:#1f2328}
+h1,h2,h3{line-height:1.25}
+code{background:#f3f4f6;padding:2px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>Privacy Policy — Suno Karaoke</h1>
+<p><strong>Effective date:</strong> September 19, 2026</p>
+
+<p>Suno Karaoke is an unofficial Chrome extension and is not affiliated with, endorsed by, or sponsored by Suno.</p>
+
+<h2>Purpose</h2>
+<p>The extension provides karaoke-style lyric display, practice controls, microphone features, local voice recording, and a local song/recording library for individual Suno song pages.</p>
+
+<h2>Site access</h2>
+<p>The extension requests host access only to <code>https://suno.com/*</code> and <code>https://www.suno.com/*</code>. It does not request access to unrelated websites.</p>
+
+<h2>Data handled</h2>
+
+<h3>Current Suno page</h3>
+<p>The extension reads the current Suno song URL and page title to identify the selected song and to save a local library link.</p>
+
+<h3>Suno authentication</h3>
+<p>When aligned lyrics are requested, packaged extension code running inside the Suno page temporarily reads the page's existing Suno session value to authenticate a direct request to Suno's own aligned-lyrics API. The session value is not stored, logged, displayed, downloaded, or sent to the developer.</p>
+
+<h3>Lyrics, timing, waveform, and playback state</h3>
+<p>The extension processes lyric text, timing data, word alignment data, waveform data, and current playback state returned or exposed by Suno. These are used for lyric synchronization, countdowns, lyric progress coloring, practice controls, and the music-reactive visualizer.</p>
+
+<h3>Microphone</h3>
+<p>Microphone access occurs only after the user explicitly requests it and grants Chrome permission. Microphone audio is processed locally for input monitoring, level display, and user-requested recording. Microphone audio is not transmitted to the developer.</p>
+
+<h3>Recordings and library</h3>
+<p>User-created microphone recordings and saved-song library entries are stored locally in the browser using IndexedDB. Practice preferences such as per-song sync adjustment are stored locally by the extension.</p>
+
+<h2>Storage and retention</h2>
+<p>The developer does not operate a backend that stores extension data. Local recordings and library data remain on the user's browser profile until the user deletes them or clears the extension/browser data. Removing the browser profile or clearing extension data may permanently remove locally stored recordings and library entries.</p>
+
+<h2>Sharing</h2>
+<p>The developer does not receive, sell, rent, or share user data.</p>
+
+<h2>Analytics, advertising, and tracking</h2>
+<p>The extension contains no analytics SDK, advertising system, tracking pixel, telemetry, or developer-operated backend service.</p>
+
+<h2>Security</h2>
+<p>Network requests used for the aligned-lyrics feature use HTTPS. Authentication information is not intentionally written to logs, persistent storage, exported files, or developer servers.</p>
+
+<h2>Chrome Web Store Limited Use</h2>
+<p>Data is used only to provide the disclosed extension functionality and is not used for advertising, profiling, credit decisions, data brokerage, or unrelated purposes.</p>
+
+<h2>Suno dependency</h2>
+<p>The extension depends on Suno's current website and data behavior. Suno changes may temporarily affect extension functionality.</p>
+
+<h2>Contact</h2>
+<p>For privacy or support questions, use the developer contact shown on the Chrome Web Store listing.</p>
+</body>
+</html>
